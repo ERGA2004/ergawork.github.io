@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/main.css"/>
-  <link rel="stylesheet" href="/js/main.js">
   </head>
 <body>
 <nav class="navbar navbar-light bg-light">
@@ -135,9 +134,39 @@
         </div>
         <button href="#" onclick="document.getElementById('target-id').style.display = 'none'; return false;">Скрыть</button>
         <button href="#" onclick="document.getElementById('target-id').style.display = 'block'; return false;">Показать больше</button>
-
     </div>
   </div>
+  <div class="background"></div>
+    <div class="container">
+  <div class="col-4">
+    <div class="form-group mb-32">
+      <label for="name">Твое Имя</label>
+       <input type="text" class="form-control" name="name" id="name" />
+        </div>
+          </div>
+       <div class="col-4"><div class="form-group mb-32">
+        <label label for="name">Твой номер телефона</label>
+          <input type="text" class="form-control" name="phone" id="phone"/>
+            </div>
+                </div>
+<div class="col-4">
+  <div class="form-group mb-32">
+    <label for="name">Твой статус</label>
+    <input type="text" class="form-control" name="status" id="status"/>
+  </div>
+</div>
+<div class="col-4"><div class="form-group mb-32">
+  <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Cообщения"></textarea>
+    </div>
+      </div>
+<div class="col-4">
+  <div>
+    <button type="button" class="btn btn-primary btn-lg btn-block mb-32" style="width: 100%" id="save">
+       Отправить
+    </button>
+</div>
+  </div>
+</div>
   <div id="footer-main">
     <div class="footer-main four">
       <div class="footer_bottom first-a">
@@ -163,6 +192,7 @@
       </div>
     <p class="copyright">Kazahstan Almaty 2021.</p>
 </div>
+  <script src="/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

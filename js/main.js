@@ -1,9 +1,11 @@
-$(document).ready(function(){
-    $('.container row div p a ').click(function() {
-        $(this).siblings('a').removeClass('active');
-        $(this).addClass('active');
-    });
-});
+let user = {
+    name: '',
+    phone: '',
+    message: '',
+    status: ''
+ }
+console.log(user)
+
 
 
 document.getElementById('target-id').style.display = 'none'; // hide it
